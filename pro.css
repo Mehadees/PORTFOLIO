@@ -5,7 +5,8 @@
     margin-left: 0px;
     font-family: "Poppins", sans-serif;
     margin-right: 0px;
-    color: aliceblue;
+    color:white;
+    font-weight: 600;
 
 }
 .mehu{
@@ -91,10 +92,11 @@ span{
     border-color:black ;
     font-weight: 600;
     position: relative;
-    left: 225px;
-    top: 60px;
+    left: 235px;
+    top: 40px;
     cursor: pointer;
     display:block;
+
 
 }
 .li,.la{
@@ -104,10 +106,12 @@ span{
 }
 
 .la{
-    margin-left: 54px;
+    margin-left: 65px;
     margin-top: 60px;
     position: relative;
-    top: 50px;
+    top: 20px;
     
 }
-
+i{
+    margin-left: 80px;
+}

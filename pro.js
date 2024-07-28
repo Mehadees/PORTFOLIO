@@ -3,8 +3,6 @@ var clbtn = document.querySelector(".clbtn");
 function show(){
     cbox.style.display="block";
 }
-function close(){
+clbtn.addEventListener("click",function(){
     cbox.style.display="none";
-
-}
-clbtn.addEventListener("click", close); 
+}) 
