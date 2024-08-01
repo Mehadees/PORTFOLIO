@@ -1,44 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Quicksand:wght@300..700&display=swap');
 
-*{
+* {
     margin-top: 0px;
     margin-left: 0px;
     font-family: "Poppins", sans-serif;
     margin-right: 0px;
-    color:white;
+    color: white;
     font-weight: 600;
-
 }
-.mehu{
+
+.mehu {
     margin-left: 20px;
 }
-header{
+
+header {
     display: flex;
-    justify-content: space-between ;
+    justify-content: space-between;
     border: 1px none white;
-    background-color: rgb(25, 24, 24); 
-    position: fixed ;
+    background-color: rgb(25, 24, 24);
+    position: fixed;
     top: 0px;
     width: 100vw;
     height: 8vh;
     align-items: center;
-  
 }
-.logo a{
+
+.logo a {
     color: rgb(0, 148, 223);
     text-decoration: none;
     font-size: 28px;
     font-weight: 600;   
     padding: 10px;
-    transition:0.2s;
-    
+    transition: 0.2s;
 }
-.logo a:hover{
+
+.logo a:hover {
     color: whitesmoke;
     filter: drop-shadow(10px 0px 10px);
 }
 
-.det a{
+.det a {
     color: white;
     text-decoration: none;
     margin-left: 35px;
@@ -46,32 +47,38 @@ header{
     font-weight: 400;
     margin-right: 70px;
 }
-.det a:hover{
-    color:rgb(241, 45, 107);
-    filter: drop-shadow(0 0 10px );
+
+.det a:hover {
+    color: rgb(241, 45, 107);
+    filter: drop-shadow(0 0 10px);
 }
-span{
-    color:yellow;
+
+span {
+    color: yellow;
     font-size: 20px;
 }
-.con,.hi{
-    position:relative;
+
+.con, .hi {
+    position: relative;
     top: 150px;
     max-width: 300px;
     left: 400px;
 }
-.mi{
+
+.mi {
     position: relative;
     bottom: 50px;
     right: 80px;
     filter: drop-shadow(0 0px 2px whitesmoke);
     transition: 0.5s;
 }
-.mi:hover{
-   transform:rotate(-3deg);
-   filter: drop-shadow(0 0 3px yellow);
+
+.mi:hover {
+    transform: rotate(-3deg);
+    filter: drop-shadow(0 0 3px yellow);
 }
-.cbox{
+
+.cbox {
     border: 1px solid black;
     border-radius: 8px;
     width: 280px;
@@ -79,39 +86,44 @@ span{
     background-color: rgb(241, 45, 107);
     position: relative;
     bottom: 400px;  
-    left:600px;
+    left: 600px;
     padding: 20px;
     display: none;
 }
 
-.clbtn{
+.clbtn {
     color: rgb(0, 0, 0);
     padding: 2px 10px;
     border-radius: 8px;
     font-size: 13px;
-    border-color:black ;
+    border-color: black;
     font-weight: 600;
     position: relative;
     left: 235px;
-    top: 40px;
+    top: 55px;
     cursor: pointer;
-    display:block;
-
-
+    display: block;
 }
-.li,.la{
-    color:wheat;
+
+.li, .la {
+    color: wheat;
     text-decoration: none;
     align-items: center;
 }
 
-.la{
+.la {
     margin-left: 65px;
     margin-top: 60px;
     position: relative;
     top: 20px;
-    
+    right:95px;
 }
-i{
-    margin-left: 80px;
+
+i {
+position: relative;
+top: 20px;
+left: 80px;
+}
+.projects{
+    
 }
